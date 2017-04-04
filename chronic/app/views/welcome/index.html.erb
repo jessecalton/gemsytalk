@@ -1,0 +1,26 @@
+<h1><center>Examples of Chronic Gem:</center></h1>
+
+<div class="good-chronic">
+<h4>Chronic.parse('tomorrow at 2')</h4> <%= Chronic.parse('tomorrow at 2') %>
+
+<h4>Chronic.parse('six in the morning') *spelling counts!*</h4> <%= Chronic.parse('six in the morning') %>
+
+<h4>Chronic.parse('20 years ago today')</h4> <%= Chronic.parse('20 years ago today') %>
+
+<h4>Chronic.parse('october 29 nineteen88 at 1115 pm')</h4> <%= Chronic.parse('october 29 nineteen88 at 1115 pm') %>
+
+<h4>Chronic.parse('3 days 6 hours from last wednesday')</h4> <%= Chronic.parse('3 days 6 hours from last wednesday') %>
+
+<h4>Chronic.parse('six days and 22 minutes from now')</h4> <%= Chronic.parse('six days and 22 minutes from now') %>
+
+<h4>Chronic.parse('9 seconds ago')</h4> <%= Chronic.parse('9 seconds ago') %>
+
+<p>The docs live here: <a href="https://github.com/mojombo/chronic">github.com/mojombo/chronic</a></p>
+</div>
+
+<div class="failures">
+<h3>Chronic fails below:</h3>
+<h4>Chronic.parse('christmas last year')</h4> <%= Chronic.parse('christmas last year') %>
+
+<h4>Chronic.parse('4 score and 7 years ago')</h4> <%= Chronic.parse('4 score and 7 years ago') %>
+</div>
